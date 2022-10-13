@@ -6,7 +6,12 @@ import { View } from "react-native";
 
 const Sidebar: React.FC<DrawerContentComponentProps>=()=>{
     return (
-        <View></View>
+        <View
+        style={{
+            backgroundColor:'red',
+            flex:1
+        }}
+        ></View>
     )
 }
 
