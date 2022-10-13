@@ -6,7 +6,12 @@ import {View,Text} from 'react-native'
 const App=()=>{
     return (
         <NavigationContainer>
-            <View>
+            <View style={{
+                flex:1,
+                backgroundColor:'white',
+                justifyContent:'center',
+                alignItems:'center'
+            }}>
             <Text>Hello, World</Text>
             </View>
         </NavigationContainer>
